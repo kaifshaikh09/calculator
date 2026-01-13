@@ -1,0 +1,36 @@
+h1 {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .container {
+            background: rgb(255, 255, 255);
+            background: linear-gradient(189deg, rgba(255, 255, 255, 1) 0%, rgba(118, 252, 255, 1) 84%);
+            width: 200px;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #display {
+            width: 100%;
+            text-align: right;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        input[type='button'] {
+            width: 47px;
+            height: 47px;
+            font-size: 20px;
+            margin: 5px 0px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: yellow;
+        }
+
+        input[value='='] {
+            width: 96px;
+        }
